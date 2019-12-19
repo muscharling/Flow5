@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EGNE PROJEKTER</title>
+  <link rel="stylesheet" href="portfolio05-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+  <link rel='icon' href='images/favicon.ico' type='image/x-icon'/>
+</head>
+<body>
+
+  <!--HEADER-->
+  <header>
+    <div class="logo">
+      <a href="#forside">
+      <img src="images/logo5.png" alt="logo">
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="http://muscharling.dk/Flow5/Portfolio-flow5-index2.html#forside">Forside</a></li>
+        <li><a href="http://muscharling.dk/Flow5/Portfolio-flow5-index2.html#om">Om</a></li>
+        <li><a href="http://muscharling.dk/Flow5/Portfolio-flow5-index2.html#kompetencer">Kompetencer</a></li>
+        <li><a href="http://muscharling.dk/Flow5/Portfolio-flow5-index2.html#Portfolio">Portfolio</a></li>
+        <li><a href="http://muscharling.dk/Flow5/Portfolio-flow5-index2.html#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+<section class="portfolio05">
+  <h3>EGNE PROJEKTER</h3>
+  <hr>
+
+  <div class="portfolio05-content">
+    <div class="image-portfolio05">
+      <div class="w3-content w3-section" >
+      <img class="mySlides"  src="images/portfolio05.1.png"alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.2.1.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.2.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.3.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.4.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.5.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.6.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.7.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.8.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.9.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.10.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.11.png"  alt="portfolio05">
+      <img class="mySlides"  src="images/portfolio05.12.png"  alt="portfolio05">
+    </div>
+    </div>
+    <br>
+    <a class="button-portfolio01" href="https://manuvision.dk/" target="_blank">Manuvision.dk</a>
+    <br>
+  <a class="button-portfolio02" href="https://darlingsbyscharling.dk/" target="_blank">Darlingsbyscharling.dk</a>
+  <a class="button-portfolio03" href="https://radiatordesign.dk/" target="_blank">Radiatordesign.dk</a>
+  <br>
+  <a class="button" href="http://muscharling.dk/Flow5/portfolio04.html"><i class="left"></i>Tilbage</a>
+<a class="button2" href="http://muscharling.dk/Flow5/portfolio06.html">Næste<i class="right"></i></a>
+
+    <div class="opg-beskriv-portfolio05">
+      <p>Jeg er egentlig uddannet laborant, men skæbnen ville, at jeg på et tidpunkt fik muligheden for, at prøve kræfter med den noget mere kreative verden. Siden da, har det ene ført til det andet og jeg har i de senere par år arbejdet med opgaver indenfor både webudvikling/webdesign og grafisk layout. </p>
+      <p class="overskrift"><span style="color:#180974;">WEBUDVIKLING</span><br>Udvikling af websites (uden brug af decideret kodning)
+Under slideshowet til venstre, ses link til 3 websites, som jeg har haft ansvaret for udviklingen af. De er alle lavet i Wordpress, hvor udgangspunktet har været en template/skabelon, hvorefter de er tilpasset i forhold til virksomhedens behov og ønsker vha. HTML og CSS.
+</p>
+      <p class="overskrift"><span style="color:#180974;">GRAFISK LAYOUT</span><br>Som ansvarlig for alt trykt kampagnemateriale under demokratikampagnen 'Stemmer på Kanten' i 2013, har jeg udarbejdet layout til tryk på bl.a muleposer, badges, plakater, roll-ups, postkort og flyers.<br> Hos RadiatorDsign har jeg haft ansvaret for udarbejdelse af produktbrochurer/datablade til online visning, billedemateriale og tekst til SoMe, banner-reklamer, opsætning af artikler online samt andre mindre grafiske opgaver.
+<p class="overskrift"><span style="color:#180974;">ANOTHER PASSION</span><br>Smykkedesign og - produktion er min helt store passion og jeg har siden 2017 drevet smykkevirksomheden Darlings By Scharling.</p>
+    </div>
+  </div>
+
+  <!--FOOTER-->
+<div class="copyright">&copy; 2019 Design og kodning - Michaela Ulrik Scharling. Studieopg.</div>
+</section>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
